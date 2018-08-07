@@ -1,0 +1,86 @@
+*{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+
+.wrapper{
+    position:relative;
+    width:904px;
+    height:622px;
+    margin: 50px auto 0px;
+    border:2px solid #333;
+    /* background-color:#a1a0a3; */
+}
+
+.wrapper #playpart{
+    position: relative;
+    display:inline-block;
+    width:760px;
+    height:600px;
+    margin:10px 10px 10px 10px;
+    border:1px solid #ccc;
+    /* background-color:#ebe8f1; */
+
+}
+.wrapper .playpart .snake{
+    position: absolute;
+    display: inline-block;
+    width:10px;
+    height: 10px;
+    background-color:orange;
+    top:0px;
+    left:0px;
+}
+.wrapper .buttonpart{
+    display:inline-block;
+    width:105px;
+    height:600px;
+    margin:10px 10px 10px 0px;
+    /* border:1px solid #ccc; */
+    vertical-align: top;
+}
+
+.wrapper .buttonpart .btn{
+    width:100px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    border:2px solid #808080;
+    background-color:#ebe8f1;
+    cursor: pointer;
+}
+.wrapper .buttonpart .btn span{
+    display:inline-block;
+    height:40px;
+    width:100px;
+    line-height:40px;
+    
+}
+.wrapper .buttonpart .startBtn{
+    margin-bottom: 120px;
+}
+.wrapper .buttonpart .pauseBtn{
+    margin-bottom: 120px;
+}
+.wrapper .buttonpart .scoreBtn{
+    margin-bottom: 140px;
+}
+/* .food{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background: #00ff00;
+    border-radius: 50%;
+}
+.snake{
+    position: absolute;
+    width:20px;
+    height:20px;
+    background: #f00;
+    border-radius: 50%;
+} */
+.head{
+    background-image:url('./1.jpg');
+    background-size:100% 100%;
+}
